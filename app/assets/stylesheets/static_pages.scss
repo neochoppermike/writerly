@@ -1,3 +1,258 @@
-// Place all the styles related to the static_pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@font-face {
+    font-family: CODE Light;
+    src: url('/assets/CODE Light');
+}
+
+.navbar-brand {
+	font-family: Reenie Beanie;
+	font-size: 400%;
+	margin-top: 10px;
+}
+
+.navbar.navbar-default .navbar-nav > li > a {
+	font-family: Quicksand;
+	margin-top: 25px;
+}
+
+.navbar {
+	background-color: #c7c5a7;
+	height: 100px;
+	margin-bottom: 0;
+	border: 0px;
+	border-radius: 0px;
+}
+
+.navbar.navbar-default .navbar-nav > li > a{
+	font-size: 150%;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-form {
+	margin-top: 25px;
+}
+
+.navbar .navbar-nav>.active>a, {
+	background-color: #c7c5a7;
+	color: #777;
+}
+
+.navbar .navbar-nav>li>a:hover, .navbar-default .navbar-nav > .active > a:hover {
+    color: white;
+    background-color: #b6b835;
+}
+
+
+
+
+/*-----------sticky footer-------------*/
+
+
+html, body {
+	height: 100%;
+}
+
+
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -80px;
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+.site-footer, .page-wrap:after {
+	height: 80px;
+}
+
+.site-footer {
+	background: #8ba88f;
+}
+
+.copyright {
+	float: right;
+	display: inline;
+	color: white;
+}
+
+.site-footer {
+	padding: 1em;
+}
+
+.social-media {
+	float: left;
+}
+
+
+/*---------------------general---------------*/
+
+body { 
+    margin: 0; 
+    text-align: center;
+} 
+
+h1 {
+    font-family: Roboto Slab;
+    font-size: 400%;
+    color: white;
+    padding: 10px;
+    border: solid 3px white;
+    display: inline-block; 
+    margin-top: 1em; 
+}
+
+.landing-page {
+	margin-top: .1em;
+}
+
+p {
+	font-family: Quicksand;
+	padding: 30px;
+	color: white;
+	font-size: 2em;
+	line-height: 1em;
+}
+
+h2 {
+	font-family: Reenie Beanie;
+    color: white;
+    font-size: 800%;
+    margin-top: 0;
+    padding-top: .5em;
+}
+
+h3 {
+	font-family: Reenie Beanie;
+    color: white;
+    font-size: 400%;
+}
+
+
+
+
+.form {
+	padding-left: 30px;
+	text-align: left;
+}
+
+.show {
+	color: black;
+}
+
+.articles-header {
+	margin-bottom: 1em;
+}
+
+.actions {
+	color: #333;
+}
+
+.enter {
+	margin-top: 6em;
+}
+
+.enter a {
+    margin-top: 6em;
+    color: white;
+    font-size: 300%;
+    font-family: Roboto Slab;
+    transition: 2s;
+}
+
+.enter a:hover {
+	text-decoration: none;
+	background-color: transparent;
+	color: #333;
+
+}
+
+.read-button a{
+	
+	background-color: #999;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0 20px;
+    color: black;
+}
+
+p.read-button a:hover {
+	text-decoration: none;
+    background-color: #999;
+    color: white;
+}
+
+/*----------------images--------------------*/
+
+.index {
+    height: 95em;
+	background-image: image-url("maya_angelou.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+.new {
+    height: 70em;
+	background-image: image-url("joseph_conrad.jpg");
+    background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.blurb {
+    height: 100em;
+	background-image: image-url("emily_bronte.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.contact {
+    height: 55em;
+	background-image: image-url("library.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.artics {
+    height: 95em;
+	background-image: image-url("bookshop.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+i.fa.fa-twitter.fa-stack-1x{
+	color: black;
+}
+
+.twitter {
+	color: white;
+}
+
+
+i.fa.fa-facebook.fa-stack-1x {
+  color: #3A4C5C;
+}
+
+.facebook {
+	color: white;
+}
+
+i.fa.fa-linkedin.fa-stack-1x{
+	color: #B70000;
+}
+
+.linkedin {
+	color: white;
+}
+
+i.fa.fa-github-alt.fa-stack-1x{
+	color: #FFCA3D;
+}
+
+.github {
+	color: white;
+}
+
