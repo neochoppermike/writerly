@@ -123,11 +123,9 @@ h2 {
 
 h3 {
 	font-family: Reenie Beanie;
-    color: white;
+    color: #ff5646;
     font-size: 400%;
 }
-
-
 
 
 .form {
@@ -166,19 +164,20 @@ h3 {
 
 }
 
-.read-button a{
-	
-	background-color: #999;
-    display: inline-block;
-    padding: 10px;
-    margin: 10px 0 20px;
-    color: black;
+.btn-primary {
+	background-color: #e8df7a;
+	border-radius: 0px;
+    border: 0px;
+    margin: 3em 0;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 150%;
 }
 
-p.read-button a:hover {
-	text-decoration: none;
-    background-color: #999;
-    color: white;
+.btn-primary:hover {
+	background-color: #e0c045;
+	border-radius: 0px;
+    border: 0px;
 }
 
 /*----------------images--------------------*/
@@ -218,6 +217,15 @@ p.read-button a:hover {
 	background-size: 100%;
 	background-repeat: repeat-y;
 }
+
+.image-show {
+
+	margin: 4em auto;
+}
+
+
+/*-----------social media-----------*/
+
 
 i.fa.fa-twitter.fa-stack-1x{
 	color: black;

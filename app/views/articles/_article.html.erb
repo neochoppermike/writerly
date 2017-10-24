@@ -1,5 +1,10 @@
 <div class="col-md-4 col-xs-12 articles">
-    <%= image_tag(article.image_url, class: "img-responsive") %>
-    <h3><%= article.title %></h3>
-    <p class="read-button"><%= link_to 'Read', article %></p>
-</div><!-- /col-->
+	<div class="card">
+	  <%= image_tag article.image_url, class: "card-img-top", size: '425x225' %>
+	  <div class="card-block">
+	    <h3 class="card-title"><%= article.title %></h3>
+	    <%= link_to 'Read', article, class: "btn btn-primary" %>
+	    <br>
+	  </div>
+	</div>
+</div>		
